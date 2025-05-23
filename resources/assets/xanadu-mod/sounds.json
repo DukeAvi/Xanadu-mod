@@ -1,0 +1,12 @@
+{
+  "wake_up": {
+    "sounds": [
+      "xanadu-mod:wake_up"
+    ]
+  },
+  "go_to_sleep": {
+    "sounds": [
+      "xanadu-mod:go_to_sleep"
+    ]
+  }
+}

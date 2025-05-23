@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "xanadu-mod",
+	"version": "${version}",
+	"name": "Xanadu-mod",
+	"description": "A mod to remind you of home",
+	"authors": [
+		"Me, DukeAvi!"
+	],
+	"contact": {
+		"homepage": "https://github.com/DukeAvi",
+		"sources": "https://github.com/DukeAvi/Xanadu_mod"
+	},
+	"license": "CCO v1.0",
+	"icon": "assets/xanadu-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dukeavi.xanadu_mod.Xanadumod"
+		],
+		"fabric-datagen": [
+			"com.dukeavi.xanadu_mod.XanadumodDataGenerator"
+		],
+		"client": [
+			"com.dukeavi.xanadu_mod.Xanadumodclient"
+		]
+	},
+	"mixins": [
+		"xanadu-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
